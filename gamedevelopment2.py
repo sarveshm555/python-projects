@@ -105,7 +105,7 @@ while True:
                     pen.write("score : {}".format(score),align="center",font=("arial",22,"bold"))
 
                 if asteriod.distance(player)<20:
-                    if asteriod.ycor()<-265:
+                    if enemy.ycor()<-265:
                          print("game over")
                          exit()
  
